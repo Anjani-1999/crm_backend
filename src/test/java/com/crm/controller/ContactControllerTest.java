@@ -35,7 +35,7 @@ class ContactControllerTest {
         MockitoAnnotations.openMocks(this);
         sampleContactDto = new ContactDto();
         sampleContactDto.setId(1L);
-        sampleContactDto.setName("John Doe");
+//        sampleContactDto.setName("John Doe");
         sampleContactDto.setEmail("john.doe@example.com");
     }
 
