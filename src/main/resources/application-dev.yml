@@ -3,7 +3,7 @@ spring:
   application:
     name: ${SPRING_APPLICATION_NAME:Order-System}
   datasource:
-    jdbcUrl: jdbc:postgresql://34.42.96.38:5432/crm_db?currentSchema=crm
+    jdbcUrl: jdbc:postgresql://34.171.34.92:5432/crm_db?currentSchema=crm
     username: crmAdmin
     password: crmAdmin
     driver-class-name: org.postgresql.Driver
@@ -73,4 +73,3 @@ cors-list: >
   https://highway.palletnow.co  
   https://dev-pos.plusmax.com/
   https://dev-pos.plusmax.com
-

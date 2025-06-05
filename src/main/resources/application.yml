@@ -1,5 +1,20 @@
+
+# Application Configuration
+app:
+  product:
+    name: CRM System
+  login:
+    url: http://localhost:3000/login
+  support:
+    email: support@company.com
+  help:
+    center:
+      url: http://localhost:3000/help
+  company:
+    name: Your Company
+
 server:
-  port: 8082
+  port: 8081
   servlet:
     context-path: /crm
 
@@ -35,3 +50,10 @@ logging:
 serviceURL:
   ai-service: http://localhost:8000
   auth-service: http://localhost:8083
+
+# Email Service Configuration
+email:
+  service:
+    url: http://localhost:8000
+
+
